@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #f7f6f4;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    margin-inline: auto;
+    font-family: sans-serif;
+  }
+  
+  .leftnav {
+    align-items: center;
+    font-size: 12.9px;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  .leftnav a {
+    text-decoration: none;
+    color: #506683;
+    font-size: 12.9px;
+    margin: 0px 48px 0px 0px;
+  }
+  
+  .rightnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9%;
+    font-size: 12.9px;
+    font-weight: 600;
+    line-height: 14px;
+    width: 100%;
+  }
+  
+  .rightnav .contactnumber {
+    text-decoration: none;
+    color: #1da1f2;
+  }
+  
+  span {
+    color: #506683;
+    font: 12.9px;
+  }
+  
+  span {
+    color: #506683;
+    font: 12.9px;
+    margin: 0px 0px 0px 4px;
+  }
+  
+  .nigeria {
+    padding: 10px 12px;
+    border-radius: 24px;
+    color: #506683;
+    margin: 0px 8px 0px 0px;
+    display: flex;
+    cursor: pointer;
+    border: thin solid #aaaaaa;
+  }
+  
+  .rightnav .nigeria .spannigeria {
+    color: #506683;
+    font: 12.9px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* XL Screens (between 992px and 1199px) */
+  @media (max-width: 1200px) {
+    .h-anchour .need .contactnumber {
+      font-size: 12.9px;
+    }
+  }
+  
+  @media (max-width: 1144px) {
+    .leftnav {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1148px) {
+    .hi-anchour {
+      display: none;
+    }
+  }
+  
+  /* Large screens (between 768px and 991px) */
+  @media (max-width: 934px) {
+    .nav {
+      text-align: center;
+    }
+  
+    .leftnav {
+      display: none;
+    }
+    .need {
+      font-size: 12px;
+    }
+  }
+  
+  /* Medium screens (between 576px and 767px) */
+  @media (max-width: 639px) {
+    .need {
+      display: none;
+    }
+  }
+  
+  /* section1 */
+  .hero-section {
+    background-color: #ece8d9;
+  }
+  
+  .hero-section-first-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 86%;
+    margin-inline: auto;
+  }
+  
+  .hs-img img {
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-weight: 200;
+  }
+  
+  .hs-leftdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    size: 12.9px;
+    font-weight: 600;
+    line-height: 21.75px;
+    font-weight: 600;
+    color: #4b6382;
+    margin: 20px 0px 0px;
+  }
+  
+  .hs-leftdiv a {
+    text-decoration: none;
+    color: #506683;
+    font: 12.9px;
+    margin: 0px 24px 0px 0px;
+  }
+  
+  .hs-signin {
+    font-family: sans-serif;
+    color: #d77f81;
+    font: 14.5px;
+    margin: 0px 24px 0px 0px;
+    cursor: pointer;
+    border: none;
+    background-color: #ece8d9;
+    line-height: 21.75px;
+    font-weight: 600;
+  }
+  
+  .hs-createAccount {
+    color: #384a62;
+    margin: 0px 24px 0px 0px;
+    font: 14.5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    line-height: 21.7px;
+    font-weight: 600;
+  }
